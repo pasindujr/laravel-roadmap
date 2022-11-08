@@ -14,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('home');
+});
+
+
+Route::get('welcome', function () {
     return view('welcome');
 });
 
@@ -21,4 +26,13 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-require __DIR__.'/auth.php';
+Route::get('/mark', function () {
+
+    $milestone = \App\Models\Milestone::first();
+    $user = \App\Models\User::first();
+
+    $user->milestones()->attachOnce($milestone);
+
+})->middleware(['auth', 'verified'])->name('mark');
+
+require __DIR__ . '/auth.php';
