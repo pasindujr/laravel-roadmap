@@ -23,9 +23,9 @@
             </div>
         @endif
 
-        <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+        <div class="w-full mx-auto sm:px-6 lg:px-8 mt-4">
             <p class="text-white">Link icons: 📕 Official Docs 🎬 Video 📃 Article 🔠 Course ❓ Test</p>
-            <div class="mt-8 bg-[#242629] overflow-hidden shadow sm:rounded-lg">
+            <div class="mt-8 bg-[#242629] overflow-hidden shadow sm:rounded-lg ">
                 <div class="grid grid-cols-1">
                     <div class="p-6">
                         <div class="flex items-center">
@@ -44,48 +44,7 @@
                                 Create your very first simple Laravel project.
                             </div>
 
-                            <div class="overflow-x-auto relative shadow-md sm:rounded-lg">
-                                <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                                    <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                                    <tr>
-                                        <th scope="col" class="py-3 px-6">
-                                            Topic
-                                        </th>
-                                        <th scope="col" class="py-3 px-6">
-                                            Learning Links
-                                        </th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                            Apple MacBook Pro 17"
-                                        </th>
-                                        <td class="py-4 px-6">
-                                            Sliver
-                                        </td>
-
-                                    </tr>
-                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                            Microsoft Surface Pro
-                                        </th>
-                                        <td class="py-4 px-6">
-                                            White
-                                        </td>
-                                    </tr>
-                                    <tr class="bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                            Magic Mouse 2
-                                        </th>
-                                        <td class="py-4 px-6">
-                                            Black
-                                        </td>
-
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                            <x-tables.beginner/>
 
                         </div>
                     </div>
@@ -102,54 +61,12 @@
                         </div>
 
                         <div class="ml-12">
-                            <div class="mt-2 text-gray-400 text-sm">
-                                Laravel News is a community driven portal and newsletter aggregating all of the latest
-                                and most important news in the Laravel ecosystem, including new package releases and
-                                tutorials.
+                            <div class="mt-2 text-gray-400 text-sm mb-4">
+                                The goal of this level is to find the first job or freelance gig.
                             </div>
 
-                            <div class="overflow-x-auto relative shadow-md sm:rounded-lg">
-                                <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                                    <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                                    <tr>
-                                        <th scope="col" class="py-3 px-6">
-                                            Topic
-                                        </th>
-                                        <th scope="col" class="py-3 px-6">
-                                            Learning Links
-                                        </th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                            Apple MacBook Pro 17"
-                                        </th>
-                                        <td class="py-4 px-6">
-                                            Sliver
-                                        </td>
+                            <x-tables.advanced-beginner/>
 
-                                    </tr>
-                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                            Microsoft Surface Pro
-                                        </th>
-                                        <td class="py-4 px-6">
-                                            White
-                                        </td>
-                                    </tr>
-                                    <tr class="bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                            Magic Mouse 2
-                                        </th>
-                                        <td class="py-4 px-6">
-                                            Black
-                                        </td>
-
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
                         </div>
                     </div>
 
@@ -165,54 +82,11 @@
                         </div>
 
                         <div class="ml-12">
-                            <div class="mt-2 text-gray-400 text-sm">
-                                Laravel News is a community driven portal and newsletter aggregating all of the latest
-                                and most important news in the Laravel ecosystem, including new package releases and
-                                tutorials.
+                            <div class="mt-2 text-gray-400 text-sm mb-4">
+                                Master all Laravel features with 3-5 years of practical experience.
                             </div>
 
-                            <div class="overflow-x-auto relative shadow-md sm:rounded-lg">
-                                <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                                    <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                                    <tr>
-                                        <th scope="col" class="py-3 px-6">
-                                            Topic
-                                        </th>
-                                        <th scope="col" class="py-3 px-6">
-                                            Learning Links
-                                        </th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                            Apple MacBook Pro 17"
-                                        </th>
-                                        <td class="py-4 px-6">
-                                            Sliver
-                                        </td>
-
-                                    </tr>
-                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                            Microsoft Surface Pro
-                                        </th>
-                                        <td class="py-4 px-6">
-                                            White
-                                        </td>
-                                    </tr>
-                                    <tr class="bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                            Magic Mouse 2
-                                        </th>
-                                        <td class="py-4 px-6">
-                                            Black
-                                        </td>
-
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                            <x-tables.mid/>
 
                         </div>
                     </div>
@@ -229,54 +103,11 @@
                         </div>
 
                         <div class="ml-12">
-                            <div class="mt-2 text-gray-400 text-sm">
-                                Laravel News is a community driven portal and newsletter aggregating all of the latest
-                                and most important news in the Laravel ecosystem, including new package releases and
-                                tutorials.
+                            <div class="mt-2 text-gray-400 text-sm mb-4">
+                                Responsibility for architecture decisions on large projects.
                             </div>
 
-                            <div class="overflow-x-auto relative shadow-md sm:rounded-lg">
-                                <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                                    <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                                    <tr>
-                                        <th scope="col" class="py-3 px-6">
-                                            Topic
-                                        </th>
-                                        <th scope="col" class="py-3 px-6">
-                                            Learning Links
-                                        </th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                            Apple MacBook Pro 17"
-                                        </th>
-                                        <td class="py-4 px-6">
-                                            Sliver
-                                        </td>
-
-                                    </tr>
-                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                            Microsoft Surface Pro
-                                        </th>
-                                        <td class="py-4 px-6">
-                                            White
-                                        </td>
-                                    </tr>
-                                    <tr class="bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                            Magic Mouse 2
-                                        </th>
-                                        <td class="py-4 px-6">
-                                            Black
-                                        </td>
-
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                            <x-tables.senior/>
 
                         </div>
                     </div>
