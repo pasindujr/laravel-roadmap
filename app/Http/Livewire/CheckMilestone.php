@@ -10,6 +10,17 @@ class CheckMilestone extends Component
 {
 
     public $milestoneId;
+    public bool $checked = false;
+
+    public function processMark()
+    {
+        if ($this->checked) {
+            $this->mark();
+        } else {
+            $this->unMark();
+        }
+
+    }
 
     public function mark()
     {

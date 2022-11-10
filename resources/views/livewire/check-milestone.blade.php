@@ -1,3 +1,11 @@
 <div class="mr-3">
-    <input type="checkbox" name="milestoneMark" value="{{ $milestoneId }}" x-model="milestone" wire:click="mark()">
+    @guest
+        <input type="checkbox" name="milestoneMark">
+
+    @endguest
+
+    @auth
+        <input type="checkbox" name="milestoneMark" x-model="milestone" value="{{ $milestoneId }}" wire:model="checked"
+               wire:change="processMark()" wire:loading.attr="disabled" x-data>
+    @endauth
 </div>
