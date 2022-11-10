@@ -7,7 +7,7 @@
     </x-slot>
 
     <div
-        class="relative flex items-top justify-center min-h-screen bg-[#16161a] dark:bg-[#16161a] sm:items-center py-4 sm:pt-0">
+        class="relative flex items-top justify-center min-h-screen bg-[#16161a] sm:items-center py-4 sm:pt-0">
         @if (Route::has('login'))
             <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                 @auth
@@ -26,7 +26,7 @@
         <div class="w-full mx-auto sm:px-6 lg:px-8 mt-4">
             <p class="text-white">Link icons: 📕 Official Docs 🎬 Video 📃 Article 🔠 Course ❓ Test</p>
             <div class="mt-8 bg-[#242629] overflow-hidden shadow sm:rounded-lg ">
-                <div class="grid grid-cols-1">
+                <div class="grid grid-cols-1" x-data="{ milestone: [ {{ implode(',',$milestoneIds) }}] }">
                     <div class="p-6">
                         <div class="flex items-center">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
