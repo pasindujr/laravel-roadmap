@@ -1,6 +1,9 @@
 <div class="mr-3">
     @guest
-        <input type="checkbox" name="milestoneMark">
+        <div>
+        <input wire:click="$emit('openModal', 'redirect-to-login-modal')" type="checkbox" name="milestoneMark">
+
+        </div>
 
     @endguest
 
