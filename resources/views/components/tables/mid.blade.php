@@ -12,28 +12,39 @@
         </thead>
         <tbody>
         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-            <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Apple MacBook Pro 17"
+            <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white inline-flex">
+                <livewire:check-milestone :milestoneId="7"/>
+                Route Caching
             </th>
             <td class="py-4 px-6">
-                Sliver
+                <a target="_blank" class="block hover:underline"
+                   href="https://laravel.com/docs/routing#redirect-routes">📕 Route Caching</a>
+            </td>
+        </tr>
+
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+            <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white inline-flex">
+                <livewire:check-milestone :milestoneId="8"/>
+                Rate Limiting
+            </th>
+            <td class="py-4 px-6">
+                <a target="_blank" class="block hover:underline"
+                   href="https://laravel.com/docs/routing#rate-limiting">📕 Rate Limiting</a>
+                <a target="_blank" class="block hover:underline"
+                   href="https://www.youtube.com/watch?v=vrLcCxWlxOk">🎬 Laravel: Create Public API with Cache and Rate
+                    Limits</a>
             </td>
 
         </tr>
+
         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-            <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Microsoft Surface Pro
+            <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white inline-flex">
+                <livewire:check-milestone :milestoneId="9"/>
+                Invokable controllers
             </th>
             <td class="py-4 px-6">
-                White
-            </td>
-        </tr>
-        <tr class="bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-600">
-            <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Magic Mouse 2
-            </th>
-            <td class="py-4 px-6">
-                Black
+                <a target="_blank" class="block hover:underline"
+                   href="https://laravel.com/docs/controllers#single-action-controllers">📕 Single Action Controllers</a>
             </td>
 
         </tr>
